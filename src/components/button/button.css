@@ -1,0 +1,49 @@
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #151515,
+             -10px -10px 10px #313131;
+    border-style: none;
+}
+
+.button:active {
+    box-shadow: inset 10px 10px 10px #151515,
+            inset -10px -10px 10px #313131;
+}
+
+.button-white {
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 30px;
+    border-style: none;
+    box-shadow:  10px 10px 10px #b6b6b6,
+                 -10px -10px 10px #f6f6f6;
+    animation-name: buttonTransistion;
+}
+
+.button-white:active {
+    box-shadow: inset 10px 10px 10px #b6b6b6,
+                inset -10px -10px 10px #f6f6f6;
+}
+
+@keyframes buttonTransistion {
+    0% {box-shadow: inset 10px 10px 10px #b6b6b6,
+        inset -10px -10px 10px #f6f6f6;}
+    100% {box-shadow:  10px 10px 10px #b6b6b6,
+        -10px -10px 10px #f6f6f6;}
+}
+
+@media screen and (max-width: 700px) {
+    .button-white {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 20px;
+    }
+}

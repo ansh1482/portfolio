@@ -1,0 +1,59 @@
+.experience {
+    background-color: #d6d6d6;
+    overflow: hidden;
+    color: #232323;
+}
+
+.experience-content {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-content img {
+    height: 100px;
+    width: 100px;
+}
+
+.experience-content h4 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.experience-content h5, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .experience-content img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .experience-content {
+        margin: 20px 10px;
+    }
+
+    .experience-content h2 {
+        font-size: 17px;
+    }
+
+    .experience-content h4 {
+        font-size: 12px;
+    }
+
+    .experience-content h5 {
+        font-size: 10px;
+    }
+}

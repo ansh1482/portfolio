@@ -1,0 +1,31 @@
+.skills {
+    background-color: #232323;
+    color: #d6d6d6;
+    overflow: hidden;
+}
+
+.skills-content {
+    margin: 30px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills-content img {
+    margin: 10px;
+    border: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+@media screen and (max-width: 700px) {
+    .skills-content img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .skills-content {
+        margin: 20px 20px;
+    }
+}
