@@ -14,50 +14,59 @@ const Experience = () => {
             </HeadingBlack>
 
             <div className="experience-content">
-                <ScrollAnimation animateIn="slideInRight">
+                <ScrollAnimation animateIn="slideInRight" animateOnce={true}>
                     <div className="exp">
-                        <PanelWhite style={{padding: "20px", position: "relative", zIndex: "10", left: "10px"}}>
-                            <RaisedPanelWhite>
+                        <PanelWhite style={{padding: "20px", display: "flex", flexDirection: "row", alignItems: "center", flexWrap: "wrap"}}>
+                            <RaisedPanelWhite style={{flex: "1", textAlign: "center"}}>
                                 <img src={oracle} />
                             </RaisedPanelWhite>
-                        </PanelWhite>
-                        <PanelWhite style={{width: "500px", height: "20px", position: "relative"}}></PanelWhite>
-                        <PanelWhite style={{padding: "30px", position: "relative", zIndex: "10", right: "10px", width: "200px"}}>
-                            <h2>Oracle</h2>
-                            <h4>Joining from 2022</h4>
-                            <h5>Member of Technical Staff</h5>
+                            <div style={{marginLeft: "20px", flex: "1"}}>
+                                <h2>Oracle</h2>
+                                <h4>Joining from 2022</h4>
+                                <h5>Member of Technical Staff</h5>
+                            </div>
+                            <PanelWhite style={{padding: "30px", margin: "20px", flex: "3"}}>
+                                <h4 style={{textAlign: "left"}}>Description</h4>
+                                <h5 style={{textAlign: "left"}}>Coming Soon!!!</h5>
+                            </PanelWhite>
                         </PanelWhite>
                     </div>
                 </ScrollAnimation>
 
-                <ScrollAnimation animateIn="slideInLeft">
+                <ScrollAnimation animateIn="slideInLeft" animateOnce={true}>
                     <div className="exp">
-                        <PanelWhite style={{padding: "20px", position: "relative", zIndex: "10", left: "10px"}}>
-                            <RaisedPanelWhite>
+                        <PanelWhite style={{padding: "20px", display: "flex", flexDirection: "row", alignItems: "center", flexWrap: "wrap"}}>
+                            <RaisedPanelWhite style={{flex: "1", textAlign: "center"}}>
                                 <img src={oracle} />
                             </RaisedPanelWhite>
-                        </PanelWhite>
-                        <PanelWhite style={{width: "500px", height: "20px", position: "relative"}}></PanelWhite>
-                        <PanelWhite style={{padding: "30px", position: "relative", zIndex: "10", right: "10px", width: "200px"}}>
-                            <h2>Oracle</h2>
-                            <h4>June 2021 - July 2021</h4>
-                            <h5>Apps Development Intern</h5>
+                            <div style={{marginLeft: "20px", flex: "1"}}>
+                                <h2>Oracle</h2>
+                                <h4>June 2021 - July 2021</h4>
+                                <h5>Apps Development Intern</h5>
+                            </div>
+                            <PanelWhite style={{padding: "30px", margin: "20px", flex: "3"}}>
+                                <h4 style={{textAlign: "left"}}>Description</h4>
+                                <h5 style={{textAlign: "left"}}>Worked on building REST APIs using JDev for Product Replacement in SCM Healthcare. Also created webpages using OJET to provide visual interface for the users requesting for Product Replacement.</h5>
+                            </PanelWhite>
                         </PanelWhite>
                     </div>
                 </ScrollAnimation>
 
-                <ScrollAnimation animateIn="slideInRight">
+                <ScrollAnimation animateIn="slideInRight" animateOnce={true}>
                     <div className="exp">
-                        <PanelWhite style={{padding: "20px", position: "relative", zIndex: "10", left: "10px"}}>
-                            <RaisedPanelWhite>
+                        <PanelWhite style={{padding: "20px", display: "flex", flexDirection: "row", alignItems: "center", flexWrap: "wrap"}}>
+                            <RaisedPanelWhite style={{flex: "1", textAlign: "center"}}>
                                 <img src={walmart} />
                             </RaisedPanelWhite>
-                        </PanelWhite>
-                        <PanelWhite style={{width: "500px", height: "20px", position: "relative"}}></PanelWhite>
-                        <PanelWhite style={{padding: "30px", position: "relative", zIndex: "10", right: "10px", width: "200px"}}>
-                            <h2>Walmart Labs</h2>
-                            <h4>May 2020 - June 2020</h4>
-                            <h5>Data Engineering Intern</h5>
+                            <div style={{marginLeft: "20px", flex: "1"}}>
+                                <h2>Walmart Labs</h2>
+                                <h4>May 2020 - June 2020</h4>
+                                <h5>Data Engineering Intern</h5>
+                            </div>
+                            <PanelWhite style={{padding: "30px", margin: "20px", flex: "3"}}>
+                                <h4 style={{textAlign: "left"}}>Description</h4>
+                                <h5 style={{textAlign: "left"}}>Learned the process of building an ETL pipeline using Talend. Created an ETL pipeline for extracting and loading the transactional data of customers of a retail store. Analysed the extracted data to get insights into the business.</h5>
+                            </PanelWhite>
                         </PanelWhite>
                     </div>
                 </ScrollAnimation>

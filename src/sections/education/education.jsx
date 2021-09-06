@@ -12,7 +12,7 @@ const Education = () => {
                 <h1>Education</h1>
             </HeadingWhite>
             <div className="education-content">
-                <ScrollAnimation animateIn="flipInY">
+                <ScrollAnimation animateIn="flipInY" animateOnce={true}>
                     <Panel style={{color: "#d6d6d6", textAlign: "center", padding: "20px", width: "200px", margin: "10px 0px"}}>
                         <Panel style= {{margin: "20px auto", width: "fit-content"}}>
                             <img src={school} />
@@ -23,7 +23,7 @@ const Education = () => {
                         <h5>Percentage: 95%</h5>
                     </Panel>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="flipInY">
+                <ScrollAnimation animateIn="flipInY" animateOnce={true}>
                     <Panel style={{color: "#d6d6d6", textAlign: "center", padding: "20px", width: "200px", margin: "10px 0px"}}>
                         <Panel style= {{margin: "20px auto", width: "fit-content"}}>
                             <img src={college} />

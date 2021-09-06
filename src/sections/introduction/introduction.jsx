@@ -22,7 +22,7 @@ const Introduction = () => {
                 </div>
             </HeadingWhite>
             <div className="intro-row1">
-                <ScrollAnimation animateIn="flipInX">
+                <ScrollAnimation animateIn="flipInX" animateOnce={true}>
                     <div className="intro-row1-col1">
                         <h3><span>Ansh Gupta</span></h3>
                         <h4>Developer with a passion for learning new things.</h4>
