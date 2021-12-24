@@ -1,6 +1,7 @@
 import './experience.css';
 import HeadingBlack from '../../components/heading/heading-black';
 import RaisedPanelWhite from '../../components/panel/raised-panel-white';
+import adobe from '../../assets/AdobeLogo.png';
 import oracle from '../../assets/OracleLogo.png';
 import walmart from '../../assets/WalmartLogo.png';
 import PanelWhite from '../../components/panel/panel-white';
@@ -17,13 +18,13 @@ const Experience = () => {
                 <ScrollAnimation animateIn="slideInRight" animateOnce={true}>
                     <div className="exp">
                         <PanelWhite style={{padding: "20px", display: "flex", flexDirection: "row", alignItems: "center", flexWrap: "wrap"}}>
-                            <RaisedPanelWhite style={{flex: "1", textAlign: "center"}}>
-                                <img src={oracle} />
+                            <RaisedPanelWhite style={{flex: "1", textAlign: "center", padding: "20px"}}>
+                                <img src={adobe} />
                             </RaisedPanelWhite>
                             <div style={{marginLeft: "20px", flex: "1"}}>
-                                <h2>Oracle</h2>
-                                <h4>Joining from 2022</h4>
-                                <h5>Member of Technical Staff</h5>
+                                <h2>Adobe</h2>
+                                <h4>Expected January 2022</h4>
+                                <h5>Product Development Intern</h5>
                             </div>
                             <PanelWhite style={{padding: "30px", margin: "20px", flex: "3"}}>
                                 <h4 style={{textAlign: "left"}}>Description</h4>
